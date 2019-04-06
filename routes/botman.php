@@ -33,3 +33,15 @@ $botman->hears('/ayuda', function ($bot) {
     		$bot->reply($key . ": " . $value);
 	}
 });
+
+$botman->hears('acerca', function ($bot) {   
+    $msj="Creador Ever Peña B"; 
+    $bot->reply ($msj);
+});
+
+$botman->hears('acerca de', function ($bot) {    
+    $msj="Creador Ever Peña Ballesteros"; 
+    $bot->reply ($msj);
+});
+
+
